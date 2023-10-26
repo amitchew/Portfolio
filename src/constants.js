@@ -36,36 +36,31 @@ export const techStack = [
 ]
 
 
-export const contactLinks = [{ name: 'Stack Overflow', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/11788531/aakash-sharma' },
-{ name: 'Instagram', url: 'https://img.icons8.com/doodle/40/000000/instagram-new--v2.png', link: 'https://www.instagram.com/aakashsh1999/' },
-{ name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/aakashsh1999'},
-{ name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/aakashsh1999/'}
+ export const contactLinks = [//{ name: 'Stack Overflow', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/11788531/aakash-sharma' },
+// { name: 'Instagram', url: 'https://img.icons8.com/doodle/40/000000/instagram-new--v2.png', link: 'https://www.instagram.com/aakashsh1999/' },
+{ name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/amitchew'},
+{ name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/abamitchew-t/'}
 ]
 
 
 
 export const serviceData = [
   {
-    name: 'Web Application Development',
-    desc: 'Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine',
+    name: 'ML / Data Science ',
+    desc: `I provide ML services to help businesses solve real-world problems. I have experience in fine-tuning language models, building machine learning models for prediction, classification, and regression, and developing machine learning pipelines for end-to-end solutions.`,
     img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"
+
   },
   {
-    name: 'Mobile Application Development',
-    desc: `We provide a range of mobile application development services
-    including custom mobile development on Android platforms, building
-    cross-platform apps, designing user experience and integrating
-    novel mobile interfaces such as chat and voice`,
+    name: 'Web Application Development',
+    desc: 'I provide web development services to build and maintain high-quality, user-friendly web applications. I have experience with the MERN stack (MongoDB, Express.js, React.js, and Node.js), as well as other popular web development frameworks and technologies.',
     img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png"
+
   },
 
   {
     name: 'Backend Development',
-    desc: `Graphic design is a craft where professionals create visual
-    content to communicate messages. By applying visual hierarchy and
-    page layout techniques, designers use typography and pictures to
-    meet users' specific needs and focus on the logic of displaying
-    elements in interactive designs, to optimize the user experience.`,
+    desc: `I provide back-end development services to build and maintain the server-side logic of web applications. I have experience with a variety of back-end programming languages and frameworks, including Python, Django, and Node.js.`,
     img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png"
   },
 

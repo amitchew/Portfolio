@@ -30,18 +30,16 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              I am a skilled ML engineer with 3+ years of experience in
+              fine-tuning language models and using tools like PyTorch,
+              scikit-learn, and Pandas. I am also a MERN stack developer with
+              proven work experience in cloud-based ERP software, store
+              replenishment software, Shopify app development, and other
+              multiple works. I am passionate about using technology to solve
+              real-world problems and make a positive impact on the world.
             </p>
           </motion.div>
-          <motion.div
-          >
+          <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
               Technologies and Tools
             </h4>
@@ -53,8 +51,7 @@ const About = () => {
               }
             >
               Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
-              websites for smartphones, tablets, and desktops.
+              open-source software I build user-focused, performant apps.
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">

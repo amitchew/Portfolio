@@ -7,10 +7,11 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
-
+import myCV from "../assets/my_CV_Sep.pdf";
 const Home = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const cv = myCV;
   return (
     <>
       <div
@@ -29,19 +30,13 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I'm Abamitchew Tomas
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
-                  steps={[
-                    "Front End Developer",
-                    1000,
-                    "Full Stack Developer",
-                    1000,
-                    "Mobile Developer",
-                    1000,
-                  ]}
+                  steps={["Full Stack Developer", 1000, "ML Engineer", 500]}
                   loop={Infinity}
+                  wrapper="p"
                 />
               </span>
             </h1>
@@ -52,8 +47,11 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              ML and MERN stack developer with a passion for building innovative
+              web apps. Proven ability to develop and deploy complex web
+              applications that leverage machine learning to solve real-world
+              problems. Seeking a challenging role in a fast-paced environment
+              to use my skills to make a positive impact.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -68,9 +66,20 @@ const Home = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                {/* <a href={cv} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
                   Resume
-                </Link>
+                </a> */}
+                <button
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+                  type="button"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1lLpWR2WvXwx7Gb12BpnGZqxuy88AmHhv/view?usp=sharing"
+                    )
+                  }
+                >
+                  Resume
+                </button>
               </div>
             </div>
           </div>
